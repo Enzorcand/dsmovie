@@ -8,6 +8,7 @@ function Listing() {
         <>
             <Pagination />
 
+            <div className="porfavorfunciona">
             <div className="container">
 
                 <div className="row">
@@ -29,7 +30,7 @@ function Listing() {
                 </div>
 
             </div>
-
+            </div>
 
         </>
 

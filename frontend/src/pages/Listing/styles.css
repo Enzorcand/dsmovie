@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e8e8e8;
+
 }
 
 .dsmovie-pagination-box {
@@ -10,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .dsmovie-pagination-box form {
@@ -50,4 +53,7 @@
 
 .dsmovie-flip-horizontal {
     transform: rotate(180deg);
+}
+body {
+    background-color: #e8e8e8;
 }

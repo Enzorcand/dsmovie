@@ -1,5 +1,7 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import 'components/MovieScore/styles.css'
+import 'pages/Form/styles.css'
 
 function MovieCard() {
 
@@ -12,7 +14,7 @@ function MovieCard() {
     };
 
     return (
-        <div>
+        <div className="dsmovie-pagination-container-color">
             <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>

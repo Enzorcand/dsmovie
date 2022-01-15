@@ -1,7 +1,14 @@
+body {
+    background-color: #e8e8e8;
+}
+.porfavorfunciona {
+    background-color: #e8e8e8;
+}
 .dsmovie-form-container {
     max-width: 480px;
     margin: 40px auto;
     padding: 20px;
+    background-color: #e8e8e8;
 }
 
 .dsmovie-form {

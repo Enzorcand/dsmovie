@@ -1,7 +1,7 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
 import 'components/MovieScore/styles.css';
-import 'pages/Form/styles.css';
+import 'components/FormCard/styles.css';
 import { Movie } from "types/movie";
 
 type Props = {
